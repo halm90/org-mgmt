@@ -1,0 +1,7 @@
+---
+applications:
+- name: org-mgmt
+  memory: 4096M
+  buildpack: python_buildpack
+  instances: 1
+  health-check-type: process
